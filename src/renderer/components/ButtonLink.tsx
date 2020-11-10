@@ -25,6 +25,7 @@ interface IButtonLinkProps {
     to: string
     icon?: string
     className?: string
+    id?: string
 }
 
 export default ButtonLink;

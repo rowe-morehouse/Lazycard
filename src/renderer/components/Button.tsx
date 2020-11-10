@@ -43,6 +43,7 @@ interface IButtonProps {
     color?: string
     shortcut?: number
     className?: string
+    id?: string
 }
 
 export default Button;

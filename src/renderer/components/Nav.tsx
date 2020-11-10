@@ -8,7 +8,8 @@ const Nav = () => {
             <div>
                 <ButtonNavLink to="/review/0" icon="drafts" routeName="review" className="navigation" />
                 <ButtonNavLink to="/cards" icon="layers" className="navigation" />
-                <ButtonNavLink to="/topics" icon="dashboard" className="navigation" />
+                <ButtonNavLink to="/topics" icon="dashboard" className="navigation" id="dashboard" />
+                // <paper-tooltip for="dashboard">Dashboard</paper-tooltip>
             </div>
             <div>
                 <ButtonNavLink to="/settings" icon="settings" className="navigation" />

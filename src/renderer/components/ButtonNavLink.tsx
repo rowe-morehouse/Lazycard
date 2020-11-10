@@ -35,6 +35,7 @@ interface IButtonLinkProps {
     icon?: string
     className?: string
     routeName?: string
+    id?: string
 }
 
 export default ButtonNavLink;
